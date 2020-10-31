@@ -22,7 +22,7 @@ namespace GaloDiazExamen
         {
             string user = txtUser.Text;
             string pass = txtPass.Text;
-
+            //variables para conprobar usuario y contraseña
             string user_validacion = "estudiante2020";
             string pass_validacion = "uisrael2020";
 
