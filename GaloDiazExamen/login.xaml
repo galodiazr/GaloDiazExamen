@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaloDiazExamen.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="LOGO"></Image>
+            
+
+            <Entry x:Name="txtUser"
+               Placeholder="Ingrese el usuario"></Entry>
+            <Entry x:Name="txtPass"
+               Placeholder="Ingrese la clave"
+               IsPassword="True"></Entry>
+            <Entry x:Name="ErrorLabel" IsReadOnly="True"></Entry>
+
+            <Button x:Name="btnLogin"
+                Text="Login"
+                ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

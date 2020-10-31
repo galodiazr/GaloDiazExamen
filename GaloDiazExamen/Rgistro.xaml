@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaloDiazExamen.Rgistro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Nombres" Grid.Row="0" FontSize="Large"></Label>
+                <Entry x:Name="txtNombre" Grid.Row="1"></Entry>
+                <Label Text="Monto inicial" Grid.Row="2" FontSize="Large"></Label>
+                <Entry x:Name="txtInicial" Grid.Row="3"></Entry>
+                <Entry x:Name="txtPmensual" IsReadOnly="True" Grid.Row="4"></Entry>
+                <Button x:Name="btnCalcular" Grid.Row="5" Text="Calcular" Clicked="btnCalcular_Clicked"></Button>
+                <Button x:Name="btnGuardar" Grid.Row="6" Text="Guardar" Clicked="btnGuardar_Clicked"></Button>
+                
+
+            </Grid>
+
+
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

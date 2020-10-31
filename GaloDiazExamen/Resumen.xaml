@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaloDiazExamen.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Usuario Conectado" Grid.Row="0" FontSize="Large"></Label>
+                <Entry x:Name="txtUsuario" IsReadOnly="True" Grid.Row="1" ></Entry>
+                <Label Text="Nombre Estudiante" Grid.Row="2" FontSize="Large"></Label>
+                <Entry x:Name="txtEstudiante" IsReadOnly="True" Grid.Row="3"></Entry>
+                <Label Text="Total a Pagar" Grid.Row="4" FontSize="Large"></Label>
+                <Entry x:Name="txtPagar" IsReadOnly="True" Grid.Row="5"></Entry>
+                
+                
+                
+
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
